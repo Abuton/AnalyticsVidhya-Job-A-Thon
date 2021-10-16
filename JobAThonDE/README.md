@@ -1,12 +1,12 @@
-## Marketplace Feature Table 
+## Marketplace Feature Store 
 
-Your Client ComZ is an ecommerce company. The company wants to focus on targeting the right customers  with the right products to increase overall revenue and conversion rate.
+ComZ is an ecommerce company. The company wants to focus on targeting the right customers  with the right products to increase overall revenue and conversion rate.
 
 To target the right customers with the right products, they need to build an ML model for marketing based on user interaction with products in the past like number of views,  most viewed product, number of activities of user, vintage of user and others. 
 
 ComZ has contacted the Data Science and Engineering team to use this information to fuel the personalized advertisements, email marketing campaigns, or special offers on the landing and category pages of the company's website.
 
-You, being a part of the data engineering team, are expected to “Develop input features”  for the efficient marketing model given the Visitor log data and User Data.
+You, being a part of the data engineering team, are expected to “Develop input feature store”  for the efficient marketing model given the Visitor log data and User Data.
 
 1. Visitor Log Data – It is a browsing log data of all the visitors and the users. This table contains the following information:
 
@@ -32,7 +32,7 @@ City:: City of the visitor
 Country:: Country of the visitor
 
 2. User Data – It has registered user information like signup date and segment.
-3. 
+ 
 UserID:: Unique ID of the registered user.
 
 Signup Date:: Date of registration for the user
@@ -41,7 +41,7 @@ User Segment:: User Segment (A/B/C) created based on historical engagement
 
 Now based on the above two tables, you need to create an input feature set for the Marketing Model.
 
-3. Input Feature table:
+3. Input Feature table (Output):
 
 UserID:: Unique ID of the registered user
 
@@ -67,7 +67,7 @@ When ComZ does a targeting campaign, It follows the below process.
 
 ![image](https://user-images.githubusercontent.com/40719064/124359786-5d74d700-dc1e-11eb-8427-c9258780c1f5.png)
 
-In the current case, you are supposed to generate an input feature set as on 28-May-2018. So, the visitor table is from 07-May-2018 to 27-May-2018.
+In the current case, you are supposed to generate an input feature store set as on 28-May-2018. So, the visitor table is from 07-May-2018 to 27-May-2018.
 
 As a Data Engineer Creating ETL Pipeline would definitely be appreciated and provide you the added advantage in interviews, Your effort should be to build ETL Pipeline such that passing the information of user data and log data, It can generate the input feature table automatically
 
